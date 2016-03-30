@@ -93,9 +93,27 @@ $$if\ Антецедент\ then\ Гипотеза\ with\ CF$$
 \end{itemize}
 \end{frame}
 
-%\begin{frame}
-%\frametitle{Операции и отношения н}
-%\end{frame}
+\begin{frame}
+\frametitle{Операции и отношения над коэффициентами уверенности}
+\begin{enumerate}[(i)]
+\item{$min(a, b)$, $max(a, b)$}
+\item{$not(a) = -a$}
+\item{$rge(a) = \mathbb{I}(a \geqslant 0.2)$, $rle(a) = \mathbb{I}(a \leqslant -0.2)$}
+\item{$tms(a, b) = a \times b$}
+\item{$
+  cmb(a, b) = \left\{
+    \begin{array}{lr}
+      a + b - a \cdot b,& a \geqslant 0, b \geqslant 0 \\
+      \frac{a + b}{1 - min(|a|, |b|)},& a \cdot b < 0 \\ 
+      a + b + a \cdot b,& a \leqslant 0, b \leqslant 0 \\
+    \end{array}
+  \right.
+$}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\end{frame}
 
 \section*{}
 \begin{frame}[plain,c]
