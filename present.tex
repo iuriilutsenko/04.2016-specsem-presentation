@@ -137,7 +137,57 @@ $}
 \end{frame}
 
 \begin{frame}
+\frametitle{Семейство трансформаций №1}
+Трансформации из семейства $G_1(\alpha)$, где $\alpha > 0$ переводят комбинирование в умножение, а умножение - в его изоморфный образ. Каждый элемент этого семейства - функция $g_1:[-1, 1] \rightarrow [0, +\infty]$.
 
+\[
+g_1(x)=\left\{
+    \begin{array}{lr}
+      (1 + x)^{\alpha},& -1 \leqslant x < 0 \\
+      (1 - x)^{-\alpha},& 0 \leqslant x < 1 \\
+      +\infty,& x = 1
+    \end{array}
+  \right.
+\]
+
+Обратная функция $g_1^{-1}: [0, +\infty] \rightarrow [-1, 1]$ выглядит следующим образом:
+\[
+g_1^{-1}(x)=\left\{
+    \begin{array}{lr}
+      x^{\frac{1}{\alpha}} - 1,& 0 \leqslant x < 1 \\
+      1 - x^{-\frac{1}{\alpha}},& 1 \leqslant x < +\infty \\
+      1,& x = +\infty
+    \end{array}
+  \right.
+\]
+\end{frame}
+
+\begin{frame}
+\frametitle{Семейство трансформаций №2}
+Главная особенность функции $h_1:[-1, 1] \rightarrow [-\infty, +\infty]$ из семейства трансформации $H_1(\beta)$ при $\beta > 1$ заключается в переводе функции комбинации в сумму.
+
+\[
+h_1(x)=\left\{
+    \begin{array}{lr}
+      -\infty,& x = -1 \\
+      +\log_{\beta}(1 + x),& -1 < x < 0 \\
+      -\log_{\beta}(1 - x),& 0 \leqslant x < 1 \\
+      +\infty,& x = 1
+    \end{array}
+  \right.
+\]
+
+Ей соответствует обратная функция $h_1^{-1}: [-\infty, +\infty] \rightarrow [-1, 1]$:
+\[
+h_1^{-1}(x)=\left\{
+    \begin{array}{lr}
+      -1,& x = -\infty \\
+      \beta^{x} - 1,& -\infty < x < 0 \\
+      1 - \beta^{-x},& 0 \leqslant x < +\infty \\
+      1,& x = +\infty \\
+    \end{array}
+  \right.
+\]
 \end{frame}
 
 \section*{}
