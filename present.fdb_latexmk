@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1459462257 "/home/yurich/учеба/презентация/present.tex" "/home/yurich/учеба/презентация/present.pdf" "present" 1459462446
+["pdflatex"] 1459462257 "/home/yurich/учеба/презентация/present.tex" "/home/yurich/учеба/презентация/present.pdf" "present" 1459521810
   "/etc/texmf/web2c/texmf.cnf" 1453922307 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/yurich/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk" 1459365401 22304 1603ca041136d3ddcdf8974fb6cb57fd ""
   "/home/yurich/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass0500.600pk" 1458937516 10176 428a8606d31bedc5a0d6c92bfd6319a7 ""
@@ -259,12 +259,12 @@
   "present.out" 1459462260 1580 d61870bb9ece703ba1693107b56df430 ""
   "present.tex" 1459462250 10797 27f1327ee5eb047681dd22ff11f87ee6 ""
   (generated)
-  "present.out"
-  "present.log"
   "/home/yurich/учеба/презентация/present.log"
-  "present.toc"
   "present.aux"
-  "/home/yurich/учеба/презентация/present.pdf"
+  "present.log"
+  "present.out"
   "present.snm"
   "present.nav"
   "present.pdf"
+  "/home/yurich/учеба/презентация/present.pdf"
+  "present.toc"
