@@ -146,7 +146,7 @@ $$if\ Антецедент\ then\ Гипотеза\ with\ CF$$
 \subsection{Семейство трансформации №1}
 \begin{frame}
 \frametitle{Семейство трансформаций №1}
-Трансформации из семейства $G_1(\alpha)$, где $\alpha > 0$ переводят комбинирование в умножение, а умножение - в его изоморфный образ. Каждый элемент этого семейства - функция $g_1:[-1, 1] \rightarrow [0, +\infty]$.
+Трансформации из семейства $G_1(\alpha)$, где $\alpha > 0$, переводят комбинирование в умножение, а умножение - в его изоморфный образ. Каждый элемент этого семейства - функция $g_1:[-1, 1] \rightarrow [0, +\infty]$.
 
 \[
 g_1(x)=\left\{
@@ -168,6 +168,28 @@ g_1^{-1}(x)=\left\{
     \end{array}
   \right.
 \]
+\end{frame}
+
+\begin{frame}
+  \begin{itemize}
+    \item{$cmb(A, B) = A \cdot B$}
+    \item{$tms(A, B) =
+      \left\{
+      \begin{array}{lr}
+        0,& (A, B) \in \{(0, +\infty), (+\infty, 0)\} \\
+        +\infty,& (A, B) \in \{(0, 0), (+\infty, +\infty)\} \\
+        \frac{1}{A},& A \in (0, +\infty), B = 0 \\
+        A,& A \in (0, +\infty), B = +\infty \\
+        \frac{1}{B},& B \in (0, +\infty), A = 0 \\
+        B,& B \in (0, +\infty), A = +\infty \\
+        (A^{-\frac{1}{\alpha}} + B^{\frac{1}{\alpha}} - A^{-\frac{1}{\alpha}} B^{\frac{1}{\alpha}})^\alpha,& (A, B) \in (1, +\infty) \times (0, 1] \\
+        (A^{-\frac{1}{\alpha}} + B^{-\frac{1}{\alpha}} - A^{-\frac{1}{\alpha}} B^{-\frac{1}{\alpha}})^{-\alpha},& (A, B) \in (1, +\infty) \times (1, +\infty) \\
+        (A^{\frac{1}{\alpha}} + B^{\frac{1}{\alpha}} - A^{\frac{1}{\alpha}} B^{\frac{1}{\alpha}})^{-\alpha},& (A, B) \in (0, 1] \times (0, 1] \\
+        (A^{\frac{1}{\alpha}} + B^{-\frac{1}{\alpha}} - A^{\frac{1}{\alpha}} B^{-\frac{1}{\alpha}})^\alpha,& (A, B) \in (0, 1] \times (1, +\infty) \\
+      \end{array}
+    \right.
+    $}
+  \end{itemize}
 \end{frame}
 
 \subsection{Семейство трансформации №2}
